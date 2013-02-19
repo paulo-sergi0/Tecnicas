@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title> Digite seus dados </title>
+	</head>
+	<body>
+	<form action = "http://www.fa7.edu.br/tecnicas/spoletto.php"
+		method="post">
+	</body>
+	<p>
+	Nome:
+	<input type="text" name="primeiroNome" value="" /> <br />
+	
+	Massa
+	<select name="massa">
+	<option value="1"> Spaghetti </option>
+	<option value="2"> Penne </option>
+	<option value="3"> Talharim </option>
+	<option value="3"> Fetuttine </option>
+	</select> <br />
+	
+	Escolha os Ingredientes: <br />
+	<input type="checkbox" name="ingredientes[]" value="bacon" /> Bacon <br />
+	<input type="checkbox" name="ingredientes[]" value="palmito" /> Palmito <br />
+	<input type="checkbox" name="ingredientes[]" value="camarao" /> Camarão <br />
+	<input type="checkbox" name="ingredientes[]" value="milho" /> Milho <br />
+	<input type="checkbox" name="ingredientes[]" value="carnedesol" /> Carne de Sol <br />
+	<input type="checkbox" name="ingredientes[]" value="gorgonsola" /> Gorgonsola <br />
+	
+	Molho: <br />
+	<input type="radio" name="molho" value="branco" /> Branco <br />
+	<input type="radio" name="molho" value="4queijos" /> 4 Queijos <br />
+	<input type="radio" name="molho" value="bolonhesa" /> Bolonhesa <br />
+	
+	Deixe sua crítica para nós: <br />
+	<textarea name="critica" rows="5" cols="40"></textarea> <br />
+	
+	
+	<input type="submit" value="Enviar" />  <br /> 
+
+	
+	</p>
+	</form>
+</html>
