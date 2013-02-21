@@ -1,24 +1,31 @@
 <html>
 	<head>
-		<title> Digite seus dados </title>
+	<title>Spoleto</title>
+	<img src="C:\Documents and Settings\GigaAMD\Desktop\Spoleto\img\logo.jpg">
+	<link rel="stylesheet" type="text/css" href="C:\Documents and Settings\GigaAMD\Desktop\Spoleto\css\style.css" />
 	</head>
+	
 	<body>
+
+	<h1>Digite seus dados: </h1>
+	
 	<form action = "http://www.fa7.edu.br/tecnicas/spoletto.php"
 		method="post">
-	</body>
-	<p>
-	Nome:
-	<input type="text" name="nome" value="" /> <br />
+		
 	
-	Massa
+	<h2>Nome:  <input type="text" name="nome" value="" /> </h2>
+	
+	
+	<h2>Massa:
 	<select name="massa">
 	<option value="Spaghetti"> Spaghetti </option>
 	<option value="Penne"> Penne </option>
 	<option value="Talharim"> Talharim </option>
 	<option value="Fetuttine"> Fetuttine </option>
-	</select> <br />
+	</select> </h2> 
+
 	
-	Escolha os Ingredientes: <br />
+	<h2>Escolha os Ingredientes: </h2>
 	<input type="checkbox" name="ingredientes[]" value="Bacon" /> Bacon <br />
 	<input type="checkbox" name="ingredientes[]" value="Palmito" /> Palmito <br />
 	<input type="checkbox" name="ingredientes[]" value="Camarao" /> Camarão <br />
@@ -26,18 +33,20 @@
 	<input type="checkbox" name="ingredientes[]" value="Carnedesol" /> Carne de Sol <br />
 	<input type="checkbox" name="ingredientes[]" value="Gorgonsola" /> Gorgonsola <br />
 	
-	Molho: <br />
+
+	<h2>Molho: </h2> 
 	<input type="radio" name="molho" value="branco" /> Branco <br />
 	<input type="radio" name="molho" value="4queijos" /> 4 Queijos <br />
 	<input type="radio" name="molho" value="bolonhesa" /> Bolonhesa <br />
 	
-	Deixe sua crítica para nós: <br />
-	<textarea name="critica" rows="5" cols="40"></textarea> <br />
-	
-	
-	<input type="submit" value="Enviar" />  <br /> 
+
+	<h4>Deixe sua crítica para nós: </h4>
+	<textarea style="background-color: transparent" name="critica" rows="5" cols="40"></textarea> <br />
 
 	
-	</p>
+	<input type="submit" value="Enviar" />
+
 	</form>
+	</body>
+	
 </html>
