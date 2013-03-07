@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title> Lojas Iceberg  </title>
+	<link type="text/css" rel="stylesheet" href="estilo.css" />
+
+</head>
+
+	<h1> Lojas Iceberg </h1>
+	
+	<h2> Sistema de cadastro de clientes</h2>
+	
+	
+	
+	<fieldset> <legend><h3>Pesquisa</h3></legend>
+	
+	<form action = "index.html" method="post">               
+
+		<h4>Tipo de pesquisa
+		<select name = "pesquisa" >
+		<option value="nome" > Nome </option>
+		<option value="codigo_cliente" > Codigo do Cliente </option>
+		</select> </h4>
+		
+		<h4>  Termo de pesquisa <input type="text" name="termopesquisa"> <input type="submit" value="Pesquisar"> </h4>
+	</fieldset>
+	
+	</form>
+
+	</br>
+	
+	<table border="1">
+	<tr>
+		<td>  </td>
+		<td> Codigo </td>
+		<td> Nome </td>
+		<td> Email </td>
+	</tr>
+	<tr>
+		<td> <form action = ""
+		method="post">  <input type="checkbox" name="tabela" value="001"> </form> </td>
+		<td> 001 </td>
+		<td> <a href="b.html">Eduardo Mendes</a> </td>
+		<td> eduardomendes@gmail.com </td>
+	</tr>
+	<tr>
+		<td> <form action = ""
+		method="post">  <input type="checkbox" name="tabela" value="001"> </form> </td>
+		<td> 002 </td>
+		<td> <a href="b.html">Frederico Fred <a> </td>
+		<td> fred@gmail.com </td>
+	</tr>
+	<tr>
+		<td> <form action = ""
+		method="post">  <input type="checkbox" name="tabela" value="001"> </form> </td>
+		<td> 003 </td>
+		<td> <a href="b.html">Wagner Sousa</a> </td>
+		<td> wagner@gmail.com </td>
+	</tr>
+	</table>
+
+	<form action ="c.html" method="post"> <input type="submit" value="Novo Cliente" /> </form> 
+	
+	
+	<p><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">     <input type="submit" value="Excluir" />       </a></p>
+        <div id="light" class="white_content">   <form action = "d.html" method ="post">   <input type="submit" value="Confirmar Exclusao" /> </form>     <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Cancelar</a></div>
+        <div id="fade" class="black_overlay"></div>
+	
+	
+
+	
+
+
+</html>
